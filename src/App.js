@@ -114,7 +114,7 @@ function Board() {
   );
 }
 
-// Function to calculate the status of the game
+
 const calculateStatus = (winner, squares, xIsNext) => {
   if (winner) {
     return `Winner: ${winner}`;
@@ -125,7 +125,6 @@ const calculateStatus = (winner, squares, xIsNext) => {
   }
 };
 
-// Function to calculate the winner
 const calculateWinner = (squares) => {
   const lines = [
     [0, 1, 2],
